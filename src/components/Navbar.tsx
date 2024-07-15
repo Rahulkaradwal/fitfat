@@ -1,11 +1,11 @@
 // import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 import Logo from "../assets/Logo.png"
 import NavItem from "./NavItem"
+import { SelectedPage } from "./shared/types"
 
 type Props = {
-    page?: string
-    selectedPage: string
-    setSelectedPage: (value: string) => void
+    selectedPage: SelectedPage
+    setSelectedPage: (value: SelectedPage) => void
 
 }
 
